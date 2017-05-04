@@ -1,20 +1,13 @@
 // ESP8266 WiFi <-> UART Bridge
-// by RoboRemo
-// www.roboremo.com
-
-// Disclaimer: Don't use RoboRemo for life support systems
-// or any other situations where system failure may affect
-// user or environmental safety.
-
-// config: ///////////////////////////////////////
+// by Luca Remigio
 
 #define UART_BAUD 9600
 #define directionPin 0   //Settarlo su HIGH in invio e LOW in ricezione
 // ESP WiFi mode:
 
 
-const char *ssid = "Remigio2-4Ghz_1";  // Your ROUTER SSID
-const char *pw = "vitopina"; // and WiFi PASSWORD
+const char *ssid = "xxxx";  // Your ROUTER SSID
+const char *pw = "xxx"; // and WiFi PASSWORD
 const int port = 8888;
 
 byte ip[] = { 192, 168, 0, 70 };
